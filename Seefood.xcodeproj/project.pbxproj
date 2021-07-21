@@ -47,6 +47,7 @@
 		2B279D4526811D33003DF7B8 = {
 			isa = PBXGroup;
 			children = (
+				2B69AA4C26A8AD7400EA89F2 /* README.md */,
 				2B279D5026811D33003DF7B8 /* Seefood */,
 				2B279D4F26811D33003DF7B8 /* Products */,
 			);
@@ -72,7 +73,6 @@
 				2B279D5C26811D36003DF7B8 /* LaunchScreen.storyboard */,
 				2B279D5F26811D36003DF7B8 /* Info.plist */,
 				2B279D6526811D56003DF7B8 /* Inceptionv3.mlmodel */,
-				2B69AA4C26A8AD7400EA89F2 /* README.md */,
 			);
 			path = Seefood;
 			sourceTree = "<group>";
