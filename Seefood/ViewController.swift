@@ -37,8 +37,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             imagePicker.dismiss(animated: true, completion: nil)
             detectImage(image: ciimage)
         }
-        
-        
     }
     
     func detectImage(image: CIImage){
@@ -60,7 +58,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             }
         }
         let handler = VNImageRequestHandler(ciImage: image)
-        
         do {
             try! handler.perform([request])
         }catch{
@@ -71,9 +68,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
 
     @IBAction func cameraTapped(_ sender: UIBarButtonItem) {
-        
         present(imagePicker, animated: true, completion: nil)
-        
     }
     
     
